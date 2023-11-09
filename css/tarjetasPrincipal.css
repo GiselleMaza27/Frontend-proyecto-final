@@ -1,0 +1,20 @@
+/* .target {
+    display: flex;
+    margin: 2rem;
+    width: 30rem;
+    min-height: 40rem;
+    border-radius: 1rem;
+    box-shadow: 2px 1px 15px -1px #bd2222;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+  .target img {
+    align-self: center;
+    object-fit: cover;
+    width: 100%;
+    filter: grayscale(1);
+    transition-property: filter;
+    transition-duration: 1s;
+  } */
