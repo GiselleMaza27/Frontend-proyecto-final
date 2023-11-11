@@ -1,4 +1,5 @@
 import React from "react";
+import imagenPortada from "../src/assets/comidas-al-plato/milanesa.jpg";
 import imagen1 from "../src/assets/bebidas/coca1.jpg";
 import imagen2 from "../src/assets/comida-rapida/hamburguesa1.jpg";
 import imagen3 from "../src/assets/comidas-al-plato/pescado1.jpg";
@@ -8,9 +9,18 @@ import "../css/tarjetasPrincipal.css";
 
 const TarjetasPrincipal = () => {
   return (
-    <div className="container">
+  
+      <div className="container-fluid">
+        <div className="row ">
+        <div class="card ">
+  <img src={imagenPortada} class="card-img img-fluid img-portada" alt="..."/>
+  
+</div>
+        </div>
+
+        {/* imagenes para categoria */}
       <div className="row ms-2 me-2 pb-2  justify-content-center ">
-        <div className="col-md-5  mb-2 m-2  contenedor-img">
+        <div className="col-md-5     contenedor-img">
           {/* ---tarjeta para categoria bebidas ---*/}
 
           <img
@@ -21,7 +31,7 @@ const TarjetasPrincipal = () => {
         </div>
 
         {/* ---tarjeta para categoria comida rapida--- */}
-        <div className="col-md-5  mb-2 m-2  contenedor-img">
+        <div className="col-md-5    contenedor-img">
           <img
             src={imagen2}
             className="img-fluid img-css"
@@ -30,7 +40,7 @@ const TarjetasPrincipal = () => {
         </div>
 
         {/* ---tarjeta para categoria comida al plato--- */}
-        <div className="col-md-5  mb-2 m-2  contenedor-img">
+        <div className="col-md-5   contenedor-img">
           <img
             src={imagen3}
             className="img-fluid img-css"
@@ -39,13 +49,14 @@ const TarjetasPrincipal = () => {
         </div>
 
         {/* ---tarjeta para categoria postres--- */}
-        <div className="col-md-5  mb-2 m-2  contenedor-img">
+        <div className="col-md-5   contenedor-img">
           <img src={imagen4} 
           className="img-fluid img-css" 
           alt="imagen postre" />
         </div>
       </div>
     </div>
+    
   );
 };
 
