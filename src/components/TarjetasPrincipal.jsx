@@ -1,13 +1,14 @@
 import React from "react";
-import imagenPortada from "../src/assets/comidas-al-plato/milanesa.jpg";
-import imagen1 from "../src/assets/bebidas/coca1.jpg";
-import imagen2 from "../src/assets/comida-rapida/hamburguesa1.jpg";
-import imagen3 from "../src/assets/comidas-al-plato/pescado1.jpg";
-import imagen4 from "../src/assets/postres/tronquito1.jpg";
+import imagenPortada from "../assets/comidas-al-plato/milanesa.jpg";
+import imagen1 from "../assets/bebidas/coca1.jpg";
+import imagen2 from "../assets/comida-rapida/hamburguesa1.jpg";
+import imagen3 from "../assets/comidas-al-plato/pescado1.jpg";
+import imagen4 from "../assets/postres/tronquito1.jpg";
 
 import "../css/tarjetasPrincipal.css";
 
 const TarjetasPrincipal = () => {
+  
   return (
   
       <div className="container-fluid">

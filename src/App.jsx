@@ -1,19 +1,31 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import TarjetasPrincipal from '../components/TarjetasPrincipal'
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import TarjetasPrincipal from "./components/tarjetasPrincipal";
+import Postres from "./components/postres";
 
 const App = () => {
   return (
-    <div className='container'>
-      <div className='row'>
-        <Navbar></Navbar>
-  
-        <TarjetasPrincipal></TarjetasPrincipal>
-        <Footer></Footer>
+    <div className="container">
+      <div className="row">
+        <BrowserRouter>
+          <Navbar />
+
+          <Routes>
+            <Route path="/" element={   <TarjetasPrincipal />}/>
+            <Route path="/postres" element={<Postres/>}/>
+
+          
+         
+          </Routes>
+
+          <Footer />
+        </BrowserRouter>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
