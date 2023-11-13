@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import TarjetasPrincipal from "./components/tarjetasPrincipal";
 import Postres from "./components/postres";
+import PostresScreen from "./views/PostresScreen";
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
 
           <Routes>
             <Route path="/" element={   <TarjetasPrincipal />}/>
-            <Route path="/postres" element={<Postres/>}/>
+            <Route path="/postres" element={<PostresScreen/>}/>
 
           
          
