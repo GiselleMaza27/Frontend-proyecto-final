@@ -5,9 +5,9 @@ import React from 'react'
 // import imagen4 from "../assets/postres/torta-frutilla.jpg";
 // import imagen5 from "../assets/postres/tronquito1.jpg";
 import imagenes from '../assets/imagenes';
-import Postres from '../components/postres'
+import Postres from '../components/Postres'
 
-const PostresScreen = (postre) => {
+const PostresScreen = () => {
     // const arregloPostres=[
     //     {nombre:imagen1,url:'../assets/postres/lemon-pie.jpg' ,titulo:"Lemon-pie", descripcion:"Porción de lemon-pie", precio:"500"},
     //     {nombre:imagen2,url:'../assets/postres/porcion-helada.jpg' , titulo:"Torta helada", descripcion:"Porción de torta helada de frutilla ", precio:"700"},

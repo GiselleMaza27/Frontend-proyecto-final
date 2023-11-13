@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import TarjetasPrincipal from "./components/tarjetasPrincipal";
-import Postres from "./components/postres";
+import TarjetasPrincipal from "./components/TarjetasPrincipal";
+import Postres from "./components/Postres";
 import PostresScreen from "./views/PostresScreen";
 
 const App = () => {

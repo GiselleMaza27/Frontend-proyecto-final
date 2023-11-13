@@ -1,5 +1,5 @@
-import imagen1 from './postres/lemon-pie.jng'
-import imagen2 from './postres/porcion-helada.png'
+import imagen1 from './postres/lemon-pie.jpg'
+import imagen2 from './postres/porcion-helada.jpg'
 
 
 export default [
