@@ -13,17 +13,17 @@ const TarjetasPrincipal = () => {
   
       <div className="container-fluid">
         <div className="row ">
-        <div class="card ">
+        <div class="card mb-2">
   <img src={imagenPortada} class="card-img img-fluid img-portada" alt="..."/>
   
 </div>
         </div>
 
         {/* imagenes para categoria */}
-      <div className="row ms-2 me-2 pb-2  justify-content-center ">
-        <div className="col-md-5     contenedor-img">
+      <div className="row  justify-content-center ">
+        <div className="col-12 col-md     contenedor-img">
           {/* ---tarjeta para categoria bebidas ---*/}
-
+          {/* ms-2 me-2 pb-2 */}
           <img
             src={imagen1}
             className="img-fluid img-css"
@@ -32,7 +32,7 @@ const TarjetasPrincipal = () => {
         </div>
 
         {/* ---tarjeta para categoria comida rapida--- */}
-        <div className="col-md-5    contenedor-img">
+        <div className="col-12 col-md   contenedor-img">
           <img
             src={imagen2}
             className="img-fluid img-css"
@@ -41,7 +41,7 @@ const TarjetasPrincipal = () => {
         </div>
 
         {/* ---tarjeta para categoria comida al plato--- */}
-        <div className="col-md-5   contenedor-img">
+        <div className="col-12 col-md  contenedor-img">
           <img
             src={imagen3}
             className="img-fluid img-css"
@@ -50,7 +50,7 @@ const TarjetasPrincipal = () => {
         </div>
 
         {/* ---tarjeta para categoria postres--- */}
-        <div className="col-md-5   contenedor-img">
+        <div className="col-12 col-md   contenedor-img">
           <img src={imagen4} 
           className="img-fluid img-css" 
           alt="imagen postre" />

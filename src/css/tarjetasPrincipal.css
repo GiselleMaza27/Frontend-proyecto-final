@@ -1,13 +1,15 @@
 .img-portada {
+
   width: 100%;
   height: 300px;
 }
 
 .contenedor-img {
   display: flex;
-  margin: 2rem;
-  width: 30rem;
-  height: 30rem;
+  margin: 2px;
+  
+  /* width: 20rem;
+  height: 30rem; */
   transition-property: transform;
     transition-duration: 1s;
 }
