@@ -19,6 +19,15 @@ import imagen3R from './comida-rapida/picada.jpg'
 import imagen4R from './comida-rapida/pizza.jpg'
 import imagen5R from './comida-rapida/pizza2.jpg'
 
+// -----------------------------------------------------------------
+
+import imagen1P from './comidas-al-plato/berenjena.jpg'
+import imagen2P from './comidas-al-plato/milanesa.jpg'
+import imagen3P from './comidas-al-plato/pescado.jpg'
+import imagen4P from './comidas-al-plato/pescado1.jpg'
+
+// ------------------------------------------------------------------
+
 
 export const imagenesPostres= [
     {"img":imagen1,"titulo":"Lemon-pie", "descripcion":"Porción de lemon-pie", "precio":"500" },
@@ -44,3 +53,9 @@ export const imagenesComidaRapida=[
     {"img":imagen5R,"titulo":"Pizza especial", "descripcion":"Pizza especial", "precio":"2600" },
 ]
 
+export const imagenesComidaPlato=[
+    {"img":imagen1P,"titulo":"Berenjenas gratinadas", "descripcion":"Berenjenas gratinadas en salsa de tomate", "precio":"2800" },
+    {"img":imagen2P,"titulo":"Milanesa con papas", "descripcion":"Milanesa con papas fritas", "precio":"2900" },
+    {"img":imagen3P,"titulo":"Merluza en salsa ", "descripcion":"Merluza en salsa blanca", "precio":"3000" },
+    {"img":imagen4P,"titulo":"Salmón con pure", "descripcion":"Salmón con pure", "precio":"2900" },
+]

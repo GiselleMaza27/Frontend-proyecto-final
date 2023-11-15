@@ -1,4 +1,5 @@
 import React from "react";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -8,6 +9,7 @@ import PostresScreen from "./views/PostresScreen";
 import ErrorScreen from "./views/ErrorScreen";
 import BebidasScreen from "./views/BebidasScreen";
 import ComidaRapidaScreen from "./views/ComidaRapidaScreen";
+import ComidaPlatoScreen from "./views/ComidaPlatoScreen.jsx";
 
 const App = () => {
   return (
@@ -21,6 +23,7 @@ const App = () => {
             <Route path="/postres" element={<PostresScreen/>}/>
             <Route path="/bebidas" element={<BebidasScreen/>}/>
             <Route path="/comidaRapida" element={<ComidaRapidaScreen/>}/>
+            <Route path="/comidaPlato" element={<ComidaPlatoScreen/>}/>
             <Route path="*" element={<ErrorScreen />} />
 
           
