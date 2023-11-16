@@ -10,6 +10,7 @@ import ErrorScreen from "./views/ErrorScreen";
 import BebidasScreen from "./views/BebidasScreen";
 import ComidaRapidaScreen from "./views/ComidaRapidaScreen";
 import ComidaPlatoScreen from "./views/ComidaPlatoScreen.jsx";
+import TarjetasPrincipalScreen from "./views/TarjetasPrincipalScreen";
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
           <Navbar />
 
           <Routes>
-            <Route path="/" element={   <TarjetasPrincipal />}/>
+            <Route path="/" element={   <TarjetasPrincipalScreen />}/>
             <Route path="/postres" element={<PostresScreen/>}/>
             <Route path="/bebidas" element={<BebidasScreen/>}/>
             <Route path="/comidaRapida" element={<ComidaRapidaScreen/>}/>

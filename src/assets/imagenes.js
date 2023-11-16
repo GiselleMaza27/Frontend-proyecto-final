@@ -28,6 +28,13 @@ import imagen4P from './comidas-al-plato/pescado1.jpg'
 
 // ------------------------------------------------------------------
 
+export const imagenesCategorias =[
+    {'img':imagen1, 'titulo':'Postres', 'id':'1'},
+    {'img':imagen1B, 'titulo':'Bebidas','id':'2'},
+    {'img':imagen1R, 'titulo':'Comida Rapida','id':'3'},
+    {'img':imagen3P, 'titulo':'Minutas','id':'4'},
+]
+
 
 export const imagenesPostres= [
     {"img":imagen1,"titulo":"Lemon-pie", "descripcion":"Porción de lemon-pie", "precio":"500" },
