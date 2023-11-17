@@ -13,9 +13,9 @@ const TarjetasPrincipal = ({ categoria }) => {
             className="card-img"
             alt={categoria.titulo}
           />
-        <div className="card-img-overlay">
+        {/* <div className="card-img-overlay">
           <h5 className="card-title">{categoria.titulo}</h5>
-        </div>
+        </div> */}
       </div>
         </Link>
       

@@ -1,0 +1,25 @@
+.tarjeta {
+    width: 100%;
+    height: 400px;
+    margin: 2px;
+   
+   }
+
+
+.tarjeta img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+   
+   } 
+   .texto h3{
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(3, 3, 3);
+   
+    
+   }
+   .texto p{
+    font-size: 2rem;
+   }
