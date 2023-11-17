@@ -29,10 +29,10 @@ import imagen4P from './comidas-al-plato/pescado1.jpg'
 // ------------------------------------------------------------------
 
 export const imagenesCategorias =[
-    {'img':imagen1, 'titulo':'Postres', 'id':'1'},
-    {'img':imagen1B, 'titulo':'Bebidas','id':'2'},
-    {'img':imagen1R, 'titulo':'Comida Rapida','id':'3'},
-    {'img':imagen3P, 'titulo':'Minutas','id':'4'},
+    {'img':imagen1, 'titulo':'Postres', 'url':'/postres'},
+    {'img':imagen1B, 'titulo':'Bebidas','url':'/bebidas'},
+    {'img':imagen1R, 'titulo':'Comida Rapida','url':'/comidaRapida'},
+    {'img':imagen3P, 'titulo':'Minutas','url':'/comidaPlato'},
 ]
 
 

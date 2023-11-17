@@ -14,7 +14,7 @@ import TarjetasPrincipalScreen from "./views/TarjetasPrincipalScreen";
 
 const App = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row">
         <BrowserRouter>
           <Navbar />
