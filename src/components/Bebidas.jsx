@@ -20,7 +20,7 @@ const bebidas = ({bebida}) => {
           <p className="card-text">${bebida.precio}</p>
         </div>
         <div>
-        <Link to='ruta' className="btn btn-success  btn-lg ms-4">Comprar</Link>
+        <Link to={`/carrito/${bebida.id}`} className="btn btn-success  btn-lg ms-4">Comprar</Link>
         </div>
       </div>
     </div>

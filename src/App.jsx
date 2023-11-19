@@ -11,6 +11,7 @@ import BebidasScreen from "./views/BebidasScreen";
 import ComidaRapidaScreen from "./views/ComidaRapidaScreen";
 import ComidaPlatoScreen from "./views/ComidaPlatoScreen.jsx";
 import TarjetasPrincipalScreen from "./views/TarjetasPrincipalScreen";
+import ProductosScreen from "./views/ProductosScreen";
 
 const App = () => {
   return (
@@ -20,14 +21,16 @@ const App = () => {
           <Navbar />
 
           <Routes>
-            <Route path="/" element={   <TarjetasPrincipalScreen />}/>
-            <Route path="/postres" element={<PostresScreen/>}/>
+            {/* <Route path="/" element={   <TarjetasPrincipalScreen />}/> */}
+            {/* <Route path="/postres" element={<PostresScreen/>}/>
             <Route path="/bebidas" element={<BebidasScreen/>}/>
             <Route path="/comidaRapida" element={<ComidaRapidaScreen/>}/>
-            <Route path="/comidaPlato" element={<ComidaPlatoScreen/>}/>
+            <Route path="/comidaPlato" element={<ComidaPlatoScreen/>}/> */}
             <Route path="*" element={<ErrorScreen />} />
+            <Route path="/carrito/:id" element={<CarritoScreen />} />
+            <Route path="/productos/:categorias" element={<ProductosScreen />} />
+            
 
-          
          
           </Routes>
 

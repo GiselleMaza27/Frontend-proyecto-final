@@ -6,7 +6,7 @@ import "../css/tarjetasPrincipal.css";
 const TarjetasPrincipal = ({ categoria }) => {
   return (
     <div className="col-12 col-md-6 ">
-          <Link to={categoria.url}>
+              <Link className="nav-link" to={categoria.url}>
       <div className="card text-bg-light tarjeta">
           <img
             src={categoria.img}
@@ -18,8 +18,8 @@ const TarjetasPrincipal = ({ categoria }) => {
         </div> */}
       </div>
         </Link>
-      
     </div>
+      
     // =========================================
   
   );
